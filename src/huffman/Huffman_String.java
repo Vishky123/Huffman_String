@@ -18,7 +18,7 @@ public class Huffman_String {
         for (int i = 0; i < string.length(); i++) {
             s = s + map.get(string.charAt(i)) + (i < string.length() - 1 ? "-" : " ");
         }
-        System.out.println("Huffman: " + s);
+        System.out.println("Huffman String : " + s);
     }
 }
 
